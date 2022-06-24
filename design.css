@@ -45,6 +45,10 @@ button{
     margin-bottom: 10px;
     margin-top: 10px;
     background-color: #FC7614;
+}button:active{
+    color: #FC7614;
+    border: 3px solid hwb(30 95% 4%);
+    background-color: hwb(30 95% 4%);
 }
 star{
     display: inline-block;
@@ -81,5 +85,11 @@ span{
     padding-top: 16px;
     padding-bottom: 16px;
     background-color: #2c343d;
+    color: #fff;
+    transition: .4s;
 }
-
+.rating p:hover{
+    background-color: #7C8798;
+}.rating p:active{
+    background-color: #FC7614;
+}
